@@ -1,0 +1,20 @@
+[project]
+name = "rag01"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Nilton Seixas"}
+]
+readme = "README.md"
+requires-python = ">=3.9,<3.13"
+dependencies = [
+    "pandas (>=2.2.3,<3.0.0)",
+    "pymupdf (>=1.25.2,<2.0.0)",
+    "spacy (==3.8.3)",
+    "sentence-transformers (>=3.4.0,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
