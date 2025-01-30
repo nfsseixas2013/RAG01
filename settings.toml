@@ -1,0 +1,3 @@
+title = "RAG_api"
+api_slug = "rag_api"
+base_path = "/rag-api"
